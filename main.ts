@@ -12,7 +12,9 @@ basic.forever(function () {
     ))
 })
 basic.forever(function () {
-    music.playTone(440, music.beat(BeatFraction.Half))
-    basic.pause(200)
-    music.playTone(147, music.beat(BeatFraction.Half))
+    music.playTone(262, music.beat(BeatFraction.Half))
+    basic.pause(500)
+    music.playTone(294, music.beat(BeatFraction.Half))
+    basic.pause(100)
+    music.playTone(330, music.beat(BeatFraction.Half))
 })
